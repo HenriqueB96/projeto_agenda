@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Dela+Gothic+One&family=Kablammo&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Kablammo&family=Roboto:wght@400;700&display=swap" rel="stylesheet">">
+</head>
+<body>
+    <div class="container">
+        <header id="main-header">
+            <h1> Agenda Telefônica</h1>
+            <img src="./imagens/mini-agenda.png" alt="mini-agenda">
+        </header>
+
+            <form  id="form-list">
+                <input type="text" id="nome-agenda" required placeholder="Nome"/>
+                <input type="tel" id="telefone-agenda" required placeholder="(xx) xxxxx-xxxx">
+                <button type="submit"> adicionar + </button>
+            </form>
+
+        <div>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th> Nome </th>
+                        <th> Telefone </th>
+                    </tr>
+            </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td id="media-final-valor"> --- </td>
+                        <td id="media-final-resultado"> --- </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <script src="mainCod.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(52, 110, 96);
+}
+
+header img{
+    height: 50px;
+    margin-right: 16px;
+    padding: 8px;
+}
+
+header, h1{
+    font-family: 'Dela Gothic One', cursive;
+}
+
+header {
+        display:flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        padding: 16px;
+    }
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: rgb(185, 212, 206);
+    padding: 8px;
+}
+
+form{
+    margin: 0 auto;
+    display: flex;
+    align-self: auto;
+    max-width: 640px;
+    width: 100%;
+    margin-bottom: 56px;
+    border: 1px;
+    
+}
+
+form input{
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    border-bottom:  solid 2px gray;
+    padding: 8px;
+    
+}
+
+form button{
+    background-color: #009432;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+form button:hover {
+    transition-duration: 1.4s;
+    background-color: #044106;
+    color: white;
+}
+
+
+table, th, td {
+    border: none;
+    }
+    
+    table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    }
+    
+    th, td{
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    font-size: 20px;
+
+    }
+
+    th {
+    background-color:#009432;
+    border: solid 3px;
+    font-family: 'Dela Gothic One', cursive;
+    }
+
+    td {
+    border-style: outset;
+    background-color: #69e492;
+    border: solid 3px gray;
+    font-family: 'Bebas Neue', sans-serif;
+    
+    }
+    
